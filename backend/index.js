@@ -4,16 +4,16 @@ const path = require("path");
 const cors = require("cors");
 const fileUpload = require("express-fileupload");
 
-const { errorHandler } = require("./backend/middlewares/errorHandler");
-const { connectDB } = require("./backend/configs/mongodb");
-const authRouter = require("./backend/routes/v1/auth.route");
-const userRouter = require("./backend/routes/v1/user.route");
-const categoryRouter = require("./backend/routes/v1/category.route");
-const sizeRouter = require("./backend/routes/v1/size.route");
-const productRouter = require("./backend/routes/v1/product.route");
-const orderRouter = require("./backend/routes/v1/order.route");
-const paymentRouter = require("./backend/routes/v1/payment.route");
-const uploadRouter = require("./backend/routes/v1/upload.route");
+const { errorHandler } = require("./middlewares/errorHandler");
+const { connectDB } = require("./configs/mongodb");
+const authRouter = require("./routes/v1/auth.route");
+const userRouter = require("./routes/v1/user.route");
+const categoryRouter = require("./routes/v1/category.route");
+const sizeRouter = require("./routes/v1/size.route");
+const productRouter = require("./routes/v1/product.route");
+const orderRouter = require("./routes/v1/order.route");
+const paymentRouter = require("./routes/v1/payment.route");
+const uploadRouter = require("./routes/v1/upload.route");
 
 const app = express();
 connectDB();
