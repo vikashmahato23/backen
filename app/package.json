@@ -1,7 +1,6 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "run": "node index.js",
@@ -35,5 +34,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikashmahato23/backen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vikashmahato23/backen/issues"
+  },
+  "homepage": "https://github.com/vikashmahato23/backen#readme",
+  "description": ""
 }
